@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SATS — Smart Adaptive Traffic Simulation (3D)</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="scene"></div>
+  <div id="left-panel" class="panel"></div>
+  <div id="right-panel" class="panel"></div>
+  <div id="help">
+    <b>O</b> walk/overhead · walk: <b>WASD</b> move, mouse look, <b>Space/C</b> up/down,
+    <b>Shift</b> fast, <b>Esc</b> exit · <b>P</b> pedestrian · overhead: click an intersection to add a pedestrian
+  </div>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
